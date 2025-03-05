@@ -22,7 +22,7 @@ advertising_values = [25, 28, 44, 54, 60]
 
 for x in advertising_values:
     y_pred = b0 + b1 * x  
-    print(f"Advertising: {x}, Predicted Sales: {round(y_pred, 2)}")
+    print(f"Advertising: {x}, Predicted Sales: {round(y_pred)}")
 
 
 
